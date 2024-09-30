@@ -11,8 +11,8 @@ const cenaListkuStudent = cenaListku * 0.65
 const prijemDivadlaSestudenty = (studenti * cenaListkuStudent * pocetPredstaveniMesicne) + ((navstevnici - studenti) * cenaListku *pocetPredstaveniMesicne)
 document.body.innerHTML += "<p> Prijem divadla se studenty za mesic: " + prijemDivadlaSestudenty + " Eur</p>" 
 
-// Hod kostkou
-document.body.innerHTML += "<h4>--- Priklad: Hazeni kostkou - Math random ----------------------------------- " + "</h4>"
+// Hod kostkou - nahodna cisla
+document.body.innerHTML += "<h4>--- Priklad: Hazeni kostkou - Math random ---------------------------------- " + "</h4>"
 
 const hodKostkou = Math.floor(Math.random()*6)+1;
 document.body.innerHTML += "<p> Hod kostkou: " + hodKostkou + "</p>" 
